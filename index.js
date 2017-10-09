@@ -2,9 +2,9 @@ var Connection = require('tedious').Connection;
 var fs   = require("fs");
 var mkdirp = require("mkdirp");
 var config = {  
-    userName: 'workmonitor',  
-    password: 'work@123',  
-    server: '52.32.4.177',  
+    userName: 'xx',  
+    password: 'xx',  
+    server: 'xx.xx.xx.xx',  
     // If you are on Microsoft Azure, you need this:  
     options: {encrypt: true, database: 'workMonitoringV1', rowCollectionOnDone: true}  
 };  
